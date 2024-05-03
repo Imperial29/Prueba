@@ -1,3 +1,4 @@
+const keep_alive = require(`./keep_alive.js`);
 const { Client, GatewayIntentBits, Partials, EmbedBuilder , Collection } = require('discord.js');
 const { Guilds , GuildMembers , GuildMessages } = GatewayIntentBits;
 const { User , Message , GuildMember , ThreadMember} = Partials;
